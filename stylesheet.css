@@ -1,0 +1,371 @@
+/* external css: flickity.css 
+*/
+
+
+body { 
+  margin:0; 
+background: black;
+}
+
+.carousel-cell {
+    width: 100%;
+    height: 400px;
+  /* flex-box, center image in cell */
+  display: block ;
+
+  display: flex;
+  
+justify-content: center;
+  
+align-items: center;
+}
+
+.carousel-cell img {
+  width: 900px;
+  /* dim unselected */
+  opacity: 0.7;
+  
+          transform: scale(0.7);
+  
+          filter: blur(5px);
+          
+          transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+
+        }
+
+/* brighten selected image */
+.carousel-cell.is-selected img {
+  opacity: 1;
+  transform: scale(.9);
+  filter: none;
+  
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell {
+    height: 400px;
+  }
+}
+
+@media screen and ( min-width: 960px ) {
+  .carousel-cell {
+    width: 60%;
+  }
+}
+
+/* buttons, no circle */
+.flickity-prev-next-button.no-svg {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  opacity: 0.6;
+}
+.flickity-prev-next-button:hover.no-svg {
+  background: transparent;
+  opacity: 1;
+}
+/* arrow color */
+.flickity-prev-next-button.arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* closer to edge */
+.flickity-prev-next-button.previous { left: 0; }
+.flickity-prev-next-button.next { right: 0; }
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+    display: none;
+  }
+
+p{
+    color: whitesmoke;
+    font-family: 'Luckiest guy', italic;
+    font-size: 50px;
+    text-align: center; 
+    }
+    
+    h2{
+      color: whitesmoke;
+      text-align: center;
+      font-size: 30px;
+      font-style: italic;
+    font-family: 'Dancing Script', cursive;
+  background: linear-gradient(to right, #00223E, #FFA17F);
+margin-bottom: 50px;  
+}
+
+    h1{
+    text-align:center;
+  font-size:80px;
+  margin:20px 0 20px 0; 
+  transition: all 0.5s;
+  color:#f34bade7;
+  font-family: 'Gochi Hand',cursive;
+  letter-spacing: 2px;
+}
+
+  h1:hover{
+    animation: neon1 1.5s ease-in-out infinite alternate; 
+  }   
+
+.blockone{
+  display:block;
+  margin-top: 200px;
+  align-items: center;  
+}
+
+.blocktwo{
+  display:inline-block;
+  margin-top: 200px;
+}
+.blockthree{
+  display:inline-block;
+  margin-top: 150px;
+}
+
+.blockfour{
+  display:inline-block;
+  margin-top: 200px;
+  align-items: center;
+}
+.blockfive{
+  display:inline-block;
+  margin-top: 200px;
+  align-items: center;
+}
+.blocksix{
+  display:inline-block;
+  margin-top: 200px;
+}
+.blockseven{
+  display:inline-block;
+  margin-top: 200px;
+}
+
+.blockeight{
+  display:inline-block;
+  margin-top: 200px;
+}
+ 
+.blocknine{
+  display:inline-block;
+  margin-top: 200px;
+
+}
+
+.blockten{
+  display:inline-block;
+  margin-top: 200px;
+}
+
+.blockeleven{
+  display:inline-block;
+  margin-top: 200px;
+}
+
+.blocktwelve{
+  display:inline-block;
+  margin-top: 200px;
+  margin-bottom:200px
+}
+
+
+  .storyone{
+    margin: 200px 100px 200px 200px;
+    font-family:;
+    font-size: 40px;
+  float: right;
+  }
+
+  .storytwo{
+    margin: 250px 100px 180px 100px;
+    font-family:;
+    font-size: 40px;
+  float: Left;
+  }
+
+ .storythree{
+   float: left ;
+margin: 50px 50px 5px 220px;
+font-size: 40px; 
+ } 
+
+ .storyfour{
+  margin: 270px 20px 200px 50px;
+  font-family:;
+  font-size: 40px;
+float: Left;
+}
+
+.storyfive{
+  margin: 200px 30px 100px 50px ;
+  font-family:;
+  font-size: 40px;
+float: right;
+}
+
+.storysix{
+float: left;
+margin: 350px 150px 240px 60px;
+font-size: 40px;
+}
+
+.storyseven{
+  margin: 300px 60px 240px 200px ;
+  font-family:;
+  font-size: 40px;
+float: right;
+}
+
+.five{
+  margin-top: 100px;
+  margin-left: 100px;
+  width:400px
+}
+
+.storyeight{
+  margin: 200px 100px 190px 70px ;
+  font-family:;
+  font-size: 40px;
+float: left;
+}
+
+.six{
+  margin-top: 100px;
+  margin-right: 50px;
+  width:500px
+}
+
+.storynine{
+  margin: 350px 100px 230px 190px  ;
+  font-family:;
+  font-size: 40px;
+float: right;
+}
+
+.seven{
+  margin-top: 100px;
+  margin-left: 80px;
+  width:350px 
+}
+
+.storyten{
+  margin: 200px 150px 90px 50px ;
+  font-family:;
+  font-size: 40px;
+float: left;
+}
+
+.eight{
+  margin-top: 100px;
+  margin-right: 50px;
+  width:500px
+}
+
+
+.storyeleven{
+  margin: 220px 50px 100px 150px;
+  font-family:;
+  font-size: 40px;
+float: right;
+}
+
+.nine{
+  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-left:50px;
+  width:350px 
+}
+
+
+.margin{
+  margin-top: 150px;
+}
+
+.imgleft{
+float: left;
+}
+.imgright{
+  float: right;
+}
+
+.one{
+margin-left: 100px ;
+}
+
+.two{
+  margin-top: 50px;
+  width: 500px;
+}
+
+.three{
+  margin-left:50px;
+ margin-top: 50px;
+  width: 600px;
+}
+
+.four{
+  margin-right: 30px;
+  margin-top: 100px;
+  width: 400px;
+}
+
+.imgthree{
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+#threeone{
+margin-left: 70px; 
+  width: 400px;
+}
+#threetwo{
+  width:400px;
+  margin-left: 20px;
+}
+
+.imgfour{
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+#fourone{
+margin-left: 70px; 
+  width: 400px;
+}
+#fourtwo{
+  width:400px;
+  margin-left: 20px;
+}
+.heart{
+  font-size: 30px;
+}
+
+.redheart{
+  color: red;
+}
+
+  @keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #f34bade7,
+                 0 0 70px  #f34bade7,
+                 0 0 80px  #f34bade7,
+                 0 0 100px #f34bade7,
+                 0 0 150px #f34bade7;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #f34bade7,
+                 0 0 35px #f34bade7,
+                 0 0 40px #f34bade7,
+                 0 0 50px #f34bade7,
+                 0 0 75px #f34bade7;
+    }
+  }
